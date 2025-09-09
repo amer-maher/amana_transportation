@@ -1,0 +1,9 @@
+/* Custom footer styles to complement Bootstrap */
+.footer h5 {
+  color: #667eea;
+  margin-bottom: 1rem;
+}
+
+.footer {
+  border-top: 3px solid #667eea;
+}

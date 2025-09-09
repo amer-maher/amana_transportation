@@ -1,0 +1,11 @@
+.hero {
+  background: rgba(63, 212, 63, 0.788);
+  color: white;
+
+  min-height: 20vh;
+  display: flex;
+  align-items: center;
+}
+
+
+
