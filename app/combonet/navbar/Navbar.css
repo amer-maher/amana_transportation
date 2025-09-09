@@ -1,1 +1,40 @@
+/* Custom navbar styles */
+.navbar {
+  position: sticky;
+  top: 0;
+  z-index: 1030;
+  border-bottom: 2px solid #28a745;
+}
 
+.navbar-brand {
+  font-size: 1.2rem;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+
+.navbar-brand:hover {
+  transform: scale(1.05);
+}
+
+.nav-link {
+  font-weight: 500;
+  transition: color 0.3s ease;
+  padding: 0.5rem 1rem !important;
+}
+
+.nav-link:hover {
+  color: #28a745 !important;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .navbar-nav {
+    flex-direction: column !important;
+    gap: 0.5rem !important;
+  }
+  
+  .col-md-9 {
+    justify-content: flex-start !important;
+    margin-top: 1rem;
+  }
+}
