@@ -24,3 +24,10 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+/* Page container for footer positioning */
+.page-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}

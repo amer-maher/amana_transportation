@@ -3,6 +3,9 @@
   background-color: #f8f9fa;
   min-height: 100vh;
 }
+.custom-bg {
+  background-color: #FFECBD;
+}
 
 .schedule-header {
   background: white;
