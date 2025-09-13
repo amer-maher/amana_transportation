@@ -11,7 +11,7 @@ const BusSelector: React.FC = () => {
 
   return (
     <div className="bus-selector text-center ">
-        <div className="border border-dark p-3 rounded mb-3 bg-yellow-500">
+        <div className="border border-dark p-3 rounded mb-3 custom-bg">
 
         <h2 className="mb-3">Active Buses Map</h2>
         </div>
